@@ -77,4 +77,8 @@ public class Student {
     public void setUniversity(String university) {
         this.university = university;
     }
+    public boolean isValid() throws StudentDataException{
+        String nameExpression="[a-zA-Z\\s]+";
+        if
+    }
 }
